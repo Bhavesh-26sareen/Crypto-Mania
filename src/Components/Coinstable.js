@@ -188,7 +188,9 @@ function Coinstable() {
                         window.scroll(0, 400);
                     }}
                 ></Pagination>
+
             </Container>
+
         </ThemeProvider >
 
     )

@@ -29,7 +29,7 @@ function Header() {
     const classes = useStyle();
     const { currency, setCurrency, user } = useContext(CurrencyContext)
 
-    console.log(currency)
+    // console.log(currency)
     return (
         <ThemeProvider theme={darkTheme}>
             <AppBar color="transparent" position='static'>

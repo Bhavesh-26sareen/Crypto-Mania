@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import Alert from './Components/Alert';
 import React from 'react';
 
+
 const CoinPage = React.lazy(() => import('./Pages/CoinPage'));
 const HomePage = React.lazy(() => import('./Pages/HomePage'));
 
@@ -28,7 +29,36 @@ function App() {
 
       </Routes>
       <Alert></Alert>
-    </div>
+      <hr
+        style={{
+          background: 'gold',
+          color: 'gold',
+          borderColor: 'gold',
+          height: '3px',
+        }}
+      />
+      <footer style={{
+        // backgroundColor: "red",
+        // alignContent: 'center',
+        // display: 'flex',
+        // justifyContent: 'center',
+      }}>
+        {/* <div> Made with ❤ {'\n'}</div> */}
+        <div>
+          <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            fontFamily: "Montserrat"
+          }}>Made with ❤</div>
+          <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            fontFamily: "Montserrat"
+          }}>© 2022  All Rights Reserved</div>
+        </div>
+        
+      </footer>
+    </div >
   );
 }
 
